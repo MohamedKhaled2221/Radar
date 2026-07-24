@@ -5,8 +5,6 @@ namespace QuantumRadar.Rules
     #region SeatbeltRule
     public class SeatbeltRule : IRule
     {
-
-
         private readonly double _amount;
 
         public SeatbeltRule(double amount)

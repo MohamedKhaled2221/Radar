@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace QuantumRadar.Rules
 {
+    #region SpeedLimitRule
     public class SpeedLimitRule : IRule
     {
         private readonly CarType _carType;
@@ -26,5 +27,6 @@ namespace QuantumRadar.Rules
             }
             return new List<Violation>();
         }
-    }
+    } 
+    #endregion
 }
