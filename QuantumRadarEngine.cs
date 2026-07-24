@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace QuantumRadar
 {
+    #region QuantumRadarEngine
     public class QuantumRadarEngine
     {
         private readonly List<IRule> _rules = new List<IRule>();
@@ -67,5 +68,6 @@ namespace QuantumRadar
                 Console.WriteLine($"{x.Key} : {x.Value}");
             }
         }
-    }
+    } 
+    #endregion
 }
