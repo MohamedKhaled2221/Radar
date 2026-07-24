@@ -2,6 +2,7 @@ using System;
 
 namespace QuantumRadar
 {
+    #region Observation
     public class Observation
     {
         public string plateNum { get; }
@@ -19,5 +20,6 @@ namespace QuantumRadar
             this.Speed = speed;
             this.seatbeltFastened = seatbeltfastened;
         }
-    }
+    } 
+    #endregion
 }
