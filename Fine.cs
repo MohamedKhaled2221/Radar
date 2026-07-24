@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace QuantumRadar
 {
+    #region Fine
     public class Fine
     {
         public string plateNum { get; }
@@ -27,5 +28,6 @@ namespace QuantumRadar
                 Console.WriteLine($"{v.Desc} : {v.Amount:0} pound");
             }
         }
-    }
+    } 
+    #endregion
 }
