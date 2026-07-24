@@ -21,11 +21,11 @@ namespace QuantumRadar
         public void Print()
         {
             Console.WriteLine($"Traffic fine for car {plateNum}");
-            Console.WriteLine($"Total amount: {TotalAmount:0} pound");
+            Console.WriteLine($"Total amount: {TotalAmount:0} EGP");
             Console.WriteLine("Violations:");
             foreach (var v in Violations)
             {
-                Console.WriteLine($"{v.Desc} : {v.Amount:0} pound");
+                Console.WriteLine($"{v.Desc} : {v.Amount:0} EGP");
             }
         }
     } 
