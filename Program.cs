@@ -3,6 +3,7 @@ using QuantumRadar.Rules;
 
 namespace QuantumRadar
 {
+    #region Program.cs
     public class Program
     {
         public static void Main(string[] args)
@@ -35,5 +36,6 @@ namespace QuantumRadar
             Console.WriteLine();
             radar.PrintViolatedRuleCounts();
         }
-    }
+    } 
+    #endregion
 }
