@@ -1,5 +1,6 @@
 namespace QuantumRadar
 {
+    #region Violation
     public class Violation
     {
         public string ruleName { get; }
@@ -12,5 +13,6 @@ namespace QuantumRadar
             this.Desc = desc;
             this.Amount = amount;
         }
-    }
+    } 
+    #endregion
 }
